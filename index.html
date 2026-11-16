@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5f4ef">
+    <meta name="description" content="M Ahmad Aleem is a front-end developer and IT student in Sahiwal, Pakistan, building responsive web interfaces.">
+    <title>M Ahmad Aleem — Front-End Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="M Ahmad Aleem home">
+        <span class="brand-mark" aria-hidden="true">MA</span>
+        <span>M Ahmad <span class="brand-light">Aleem</span></span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="sr-only">Open navigation menu</span>
+        <span></span><span></span>
+      </button>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+        <a href="#work">Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About</a>
+        <a class="nav-contact" href="mailto:arainchaudary@gmail.com">Contact <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="work" aria-label="Featured work">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="status-dot"></span> Front-end developer · Sahiwal, Pakistan</div>
+          <h1>I build for<br><span>the web.</span></h1>
+          <p class="hero-intro">I’m M Ahmad Aleem, an IT student creating responsive web interfaces with HTML, CSS, and JavaScript.</p>
+          <a class="text-link" href="#skills">Explore my skills <span aria-hidden="true">↘</span></a>
+          <div class="hero-footnote"><span>01 — 03</span><span>Portfolio highlights · 2026</span></div>
+        </div>
+
+        <div class="slider" aria-roledescription="carousel" aria-label="Portfolio highlights">
+          <div class="slides" aria-live="polite">
+          </div>
+          <script type="application/json" id="slide-data">
+            [
+              {
+                "type": "Personal project",
+                "title": "My portfolio,\non the web.",
+                "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=85",
+                "alt": "A bright workspace representing this personal web portfolio project",
+                "description": "A responsive portfolio built with HTML, CSS, and JavaScript, featuring a dynamic project slider.",
+                "link": "#about",
+                "action": "About me"
+              },
+              {
+                "type": "Front-end development",
+                "title": "Responsive\ninterfaces.",
+                "image": "https://images.unsplash.com/photo-1545235617-9465d2a55698?auto=format&fit=crop&w=1600&q=85",
+                "alt": "Modern interior with a clean, considered layout",
+                "description": "I work with HTML, CSS, JavaScript, Bootstrap, and Tailwind CSS to build responsive web layouts.",
+                "link": "#skills",
+                "action": "View my skills"
+              },
+              {
+                "type": "UI design",
+                "title": "From idea\nto interface.",
+                "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=85",
+                "alt": "Bright collaborative workspace for design and creative work",
+                "description": "I use Figma to explore web layouts and practice shaping clear, user-friendly interfaces.",
+                "link": "mailto:engrmahmadaleem@gmail.com?subject=Hello%20Ahmad",
+                "action": "Get in touch"
+              }
+            ]
+          </script>
+
+          <div class="slider-controls">
+            <div class="slider-status" aria-hidden="true"><span class="current-slide">01</span><span class="status-rule"></span><span class="total-slides">03</span></div>
+            <div class="slider-actions">
+              <button class="slider-button autoplay-toggle" type="button" aria-label="Pause slideshow" aria-pressed="false"><span aria-hidden="true">Ⅱ</span></button>
+              <button class="slider-button previous" type="button" aria-label="Previous project"><span aria-hidden="true">←</span></button>
+              <button class="slider-button next" type="button" aria-label="Next project"><span aria-hidden="true">→</span></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-scroll" aria-hidden="true"><span></span> Scroll to explore</div>
+      </section>
+
+      <section class="skills section-wrap" id="skills">
+        <div class="section-label"><span>01</span> My toolkit</div>
+        <div class="skills-content">
+          <h2>Curious by nature.<br><span>Building every day.</span></h2>
+          <div class="skill-list">
+            <div class="skill-group">
+              <span class="skill-number">01</span>
+              <h3>Front-end</h3>
+              <p>HTML, CSS, JavaScript, Bootstrap, Tailwind CSS</p>
+            </div>
+            <div class="skill-group">
+              <span class="skill-number">02</span>
+              <h3>Design &amp; problem solving</h3>
+              <p>Figma, web design, problem solving</p>
+            </div>
+            <div class="skill-group">
+              <span class="skill-number">03</span>
+              <h3>Also learning</h3>
+              <p>C++ and basic Python</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section-wrap" id="about">
+        <div class="section-label"><span>02</span> About me</div>
+        <div class="about-content">
+          <p>I’m an IT student in Sahiwal, Pakistan, focused on front-end development and creating responsive, thoughtful web interfaces.</p>
+          <p class="about-details">Currently pursuing a DAE in Computer Information Technology at GCT College, Sahiwal. I completed Bano Qabil’s three-month Front-End Web Development course in 2025.</p>
+          <a class="text-link" href="mailto:engrmahmadaleem@gmail.com">Email me <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#" aria-label="M Ahmad Aleem home">
+        <span class="brand-mark" aria-hidden="true">MA</span>
+        <span>M Ahmad <span class="brand-light">Aleem</span></span>
+      </a>
+      <p>Front-end developer &amp; lifelong learner.</p>
+      <span>© <span id="year">2026</span> M Ahmad Aleem</span>
+    </footer>
+  </body>
+</html>
